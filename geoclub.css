@@ -114,7 +114,7 @@ button:active {
 
 .accueil {
   background-image: url('image1/EMI.jpg');
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   opacity: 1;
 }
@@ -242,6 +242,7 @@ button:active {
   margin-bottom: 50px;
   margin-top: 50px;
   row-gap: 40px;
+  
 }
 
 
@@ -250,8 +251,6 @@ button:active {
   grid-template-columns: 1fr;
   margin-right: 20px;
   margin-left: 20px;
-  height: fit-content;
-
 }
 
 
@@ -278,7 +277,7 @@ strong {
   font-size: 1.1em;
   font-family: arial;
   margin-top: 10px;
-  width: 100%;
+  padding-left: 10px;
 }
 
 .img-bottom {
@@ -384,7 +383,7 @@ strong {
 }
 
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 800px) {
   .objectifs {
     grid-template-columns: repeat(2, 1fr);
   }
