@@ -237,11 +237,11 @@ button:active {
 .objectifs {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  margin-left: 70px;
+  margin-left: 50px;
   margin-right: 0px;
   margin-bottom: 200px;
   margin-top: 50px;
-  column-gap: 40px;
+  row-gap: 40px;
   
 }
 
@@ -383,7 +383,7 @@ strong {
 }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
   .objectifs {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -391,3 +391,4 @@ strong {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
