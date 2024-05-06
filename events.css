@@ -84,9 +84,8 @@ h3,h2 {
 .text-propos {
   font-size: 0.8em;
   font-family: roboto;
-  margin-left: 100px;
   padding-top: 30px;
-  margin-right: 100px;
+
 }
 .div-event1 {
   display: flex;
