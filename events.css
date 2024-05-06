@@ -1,0 +1,96 @@
+.events {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.event1,
+.event2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 100px;
+
+}
+
+h3,h2 {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  display: block;
+  font-size: 1.5em;
+  font-family: roboto;
+  text-decoration-style: inherit;
+}
+
+.event-img {
+  width: 400px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 6px 6px 10px rgba(25,25,25, 1.2) ;
+  margin-top: 12px;
+  margin-bottom: 10px;
+  object-fit: contain;
+  transition: 0.3s;
+}
+.event-img:hover {
+  transform: scale(1.2);
+}
+.event-button {
+  background-color: rgb(255, 104, 3);
+  color: white;
+  padding: 15px 60px 15px 60px;
+  border-radius: 40px;
+  font-family:  arial;
+  font-size: 1.2em;
+  border: none;
+  cursor: pionter;
+  transition: 0.5s;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  box-shadow: 3px 3px 10px rgba(25,25,25,1.2);
+  opacity: 0.9;
+}
+
+.div-event-button {
+  margin-top: 10px;
+}
+
+.propos {
+  display: flex;
+  flex: 1;
+  column-gap: 40px;
+  text-align: left;
+  margin-left: 100px;
+}
+
+.event-propos-img {
+  width: 400px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 6px 6px 10px rgba(25,25,25, 1.2) ;
+  margin-top: 12px;
+  margin-bottom: 10px;
+  object-fit: contain;
+  transition: 0.3s;
+}
+
+.event-propos-button {
+  visibility: hidden;
+  transform: scale(0);
+}
+.text-propos {
+  font-size: 1em;
+  font-family: roboto;
+}
+.div-text-propo {
+  max-width: 600px;
+  min-width: 400px;
+}
+@media screen and (max-width: 600px) {
+  .bottom-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
