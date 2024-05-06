@@ -241,7 +241,7 @@ button:active {
   margin-right: 0px;
   margin-bottom: 200px;
   margin-top: 50px;
-  row-gap: 100px;
+  column-gap: 40px;
   
 }
 
