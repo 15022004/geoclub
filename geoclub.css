@@ -116,13 +116,15 @@ button:active {
   background-image: url('image1/EMI.jpg');
   background-size: cover;
   background-position: center;
-  opacity: 1;
+  opacity: 0.8;
+  transform: scale(1.07);
 }
 .accueil1 {
   background-image: url('image1/event1.jpg');
   background-size: cover;
   background-position: center;
-  opacity: 0.7;
+  opacity: 0.8;
+  transform: scale(1.03);
 }
 
 
@@ -140,6 +142,7 @@ button:active {
   margin-top: 80px;
   display: grid;
   grid-template-columns: 1fr 200px;
+  margin-right: 50px;
 }
 
 
@@ -217,7 +220,8 @@ button:active {
   font-size: 3em;
   font-family: poetson one;
   color: rgb(241, 78, 13);
-  transition: 1s;
+  transition: 0.5s;
+  margin-top: 30px;
 }
 .text-div-objectif:hover {
   text-decoration: underline;
@@ -233,16 +237,28 @@ button:active {
  font-size: 1.1em;
  font-family: arial;
  margin-top: 0px;
+ margin-bottom: 30px;
 }
 .objectifs {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr ;
   margin-left: 50px;
   margin-right: 0px;
   margin-bottom: 200px;
   margin-top: 50px;
   row-gap: 40px;
   
+}
+
+.div-obj1 {
+  margin: 40px 50px 40px 50px;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  vertical-align: top;
+  column-gap: 50px;
+  min-width: 200px;
+
 }
 
 
@@ -280,10 +296,11 @@ strong {
   align-items: flex-start;
 }
 .obj-text {
-  font-size: 0.8em;
+  font-size: 1.1em;
   font-family: arial;
-  margin-top: 0px;
+  margin-top: 30px;
   padding-top: 0px;
+  width: 100%;
 }
 
 .img-bottom {
@@ -393,8 +410,15 @@ strong {
   .objectifs {
     grid-template-columns: repeat(2, 1fr);
   }
+  
   .bottom-section {
     grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .div-obj1 {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 

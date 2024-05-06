@@ -23,6 +23,7 @@ h3,h2 {
   font-size: 1.5em;
   font-family: roboto;
   text-decoration-style: inherit;
+  margin-bottom: 30px;
 }
 
 .event-img {
@@ -81,10 +82,10 @@ h3,h2 {
   transform: scale(0);
 }
 .text-propos {
-  font-size: 0.9em;
+  font-size: 1em;
   font-family: roboto;
   width: 400px;
-  padding-top: 50px;
+  padding-top: 30px;
 }
 .div-event1 {
   display: flex;
@@ -93,6 +94,11 @@ h3,h2 {
   justify-content: center;
 }
 
+.par-1,
+.par-2,
+.par-3 {
+  margin-top: 200px;
+}
 
 .div-text-propo {
   max-width: 600px;
