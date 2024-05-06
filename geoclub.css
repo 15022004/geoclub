@@ -239,9 +239,9 @@ button:active {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   margin-left: 70px;
   margin-right: 0px;
-  margin-bottom: 50px;
+  margin-bottom: 200px;
   margin-top: 50px;
-  row-gap: 40px;
+  row-gap: 100px;
   
 }
 
@@ -322,7 +322,7 @@ strong {
 }
 .bottom-section {
   background-color: rgb(104, 103, 103);
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   margin-left: 0;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr; 
