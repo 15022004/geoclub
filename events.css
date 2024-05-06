@@ -59,11 +59,10 @@ h3,h2 {
 }
 
 .propos {
-  display: flex;
-  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr;
   column-gap: 40px;
   text-align: left;
-  margin-left: 100px;
 }
 
 .event-propos-img {
@@ -82,9 +81,19 @@ h3,h2 {
   transform: scale(0);
 }
 .text-propos {
-  font-size: 1em;
+  font-size: 0.9em;
   font-family: roboto;
+  width: 400px;
+  padding-top: 50px;
 }
+.div-event1 {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+
 .div-text-propo {
   max-width: 600px;
   min-width: 400px;
