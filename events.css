@@ -84,8 +84,9 @@ h3,h2 {
 .text-propos {
   font-size: 1em;
   font-family: roboto;
-  width: 400px;
+  margin-left: 150px;
   padding-top: 30px;
+  margin-right: 150px;
 }
 .div-event1 {
   display: flex;
@@ -98,14 +99,4 @@ h3,h2 {
 .par-2,
 .par-3 {
   margin-top: 200px;
-}
-
-.div-text-propo {
-  max-width: 600px;
-  min-width: 400px;
-}
-@media screen and (max-width: 600px) {
-  .bottom-section {
-    grid-template-columns: repeat(2, 1fr);
-  }
 }
