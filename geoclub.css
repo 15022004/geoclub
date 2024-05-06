@@ -114,7 +114,7 @@ button:active {
 
 .accueil {
   background-image: url('image1/EMI.jpg');
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   opacity: 1;
 }
@@ -277,7 +277,7 @@ strong {
   font-size: 1.1em;
   font-family: arial;
   margin-top: 10px;
-  padding-left: 10px;
+  vertical-align: top;
 }
 
 .img-bottom {
@@ -383,7 +383,7 @@ strong {
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 600px) {
   .objectifs {
     grid-template-columns: repeat(2, 1fr);
   }
