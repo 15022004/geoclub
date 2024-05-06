@@ -237,8 +237,8 @@ button:active {
 .objectifs {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  margin-left: 50px;
-  margin-right: 20px;
+  margin-left: 70px;
+  margin-right: 0px;
   margin-bottom: 50px;
   margin-top: 50px;
   row-gap: 40px;
@@ -278,7 +278,7 @@ strong {
   font-size: 1.1em;
   font-family: arial;
   margin-top: 10px;
-
+  width: 100%;
 }
 
 .img-bottom {
@@ -324,10 +324,11 @@ strong {
 .bottom-section {
   background-color: rgb(104, 103, 103);
   margin-bottom: 50px;
+  margin-left: 0;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr; 
   row-gap: 40px;
-  transform: scale(1.05);
+  transform: scale(1.08);
   box-shadow: 10px 10px 15px rgba(25,25,25,1.2);
 }
 
@@ -383,19 +384,11 @@ strong {
 }
 
 
-@media screen and (max-width: 900px) {
-  .objectifs {
-    grid-template-columns: repeat(3, 1fr);
-  }
-  .bottom-section {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 600px) {
   .objectifs {
     grid-template-columns: repeat(2, 1fr);
   }
   .bottom-section {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
