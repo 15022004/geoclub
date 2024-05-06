@@ -82,9 +82,9 @@ h3,h2 {
   transform: scale(0);
 }
 .text-propos {
-  font-size: 1em;
+  font-size: 0.8em;
   font-family: roboto;
-  margin-left: 150px;
+  margin-left: 100px;
   padding-top: 30px;
   margin-right: 150px;
 }
