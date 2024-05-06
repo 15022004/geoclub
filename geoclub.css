@@ -251,6 +251,7 @@ button:active {
   grid-template-columns: 1fr;
   margin-right: 20px;
   margin-left: 20px;
+  vertical-align: top;
 }
 
 
@@ -262,8 +263,9 @@ button:active {
   box-shadow: 6px 6px 10px rgba(0,0,0, 1.6) ;
   margin-top: 12px;
   margin-bottom: 10px;
-  object-fit: contain;
+  
 }
+
 .obj-img:hover {
   transform: scale(1.2);
 
@@ -272,12 +274,16 @@ strong {
   color: red;
   text-decoration: underline;
 }
-
+.div-obj-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
 .obj-text {
   font-size: 1.1em;
   font-family: arial;
-  margin-top: 10px;
-  vertical-align: top;
+  margin-top: 0px;
+  padding-top: 0px;
 }
 
 .img-bottom {
@@ -383,9 +389,9 @@ strong {
 }
 
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 600px) {
   .objectifs {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
   .bottom-section {
     grid-template-columns: repeat(3, 1fr);
